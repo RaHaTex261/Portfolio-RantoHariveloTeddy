@@ -63,9 +63,10 @@ $(function() {
 });
 
 
-document.querySelector("#nav-toggle").addEventListener("click", function() {
-	this.classList.toggle("active");
+document.querySelector("#open-button").addEventListener("click", function() {
+    this.classList.toggle("active");
 });
+
 
 
 $(window).load(function() {
