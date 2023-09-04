@@ -1,0 +1,126 @@
+@media screen and (max-width:414px) {
+	.scrollto {
+		padding: 95px 0px 0px 0px;
+	}
+
+	.hero h1 {
+		font-size: 100px;
+		line-height: 80px;
+		margin-top: 65px;
+}
+}
+/* 480px (WVGA - Low End Windows Phone) */
+@media screen and (max-width:480px) {
+	.wrapper {
+		background:#f3f5f8;
+		height:640px;
+	}
+	.iphone {
+		display:none;
+	}
+	.fluid-white {
+		display:none;
+	}
+	.wp2,.wp4,.wp5,.light-box {
+		margin-bottom: 30px;
+	}
+}
+/* xGA iPad */
+@media screen and (max-width:1024px) {
+	.wp3 {
+		background-position:50px 0;
+	}
+	.swag {
+		background-attachment:scroll;
+	}
+	.subscribe {
+		background-attachment: scroll;
+	}
+}
+/* 1200px (Small Desktop,Netbook) */
+@media screen and (max-width:1280px) {
+	.wp3 {
+		background-position: 50px 0;
+	}
+}
+/* Bootstrap 990px Breakpoint to 480px */
+@media screen and (min-width:480px) and (max-width:991px) {
+	.iphone {
+		display:none;
+	}
+	.fluid-white {
+		display:none;
+	}
+	.wrapper {
+		background:#f3f5f8;
+		height:540px;
+	}
+	.wp2,.wp4,.wp5,.light-box {
+		margin-bottom:30px;
+	}
+}
+@media screen and (max-width:50em) {
+	.icon-list a {
+		padding:0.5em 0em;
+		margin:0 5px;
+		font-size:1em;
+	}
+}
+
+
+
+
+
+
+
+/** Responsive fixes **/
+@media screen and (max-width:767px) {
+	.inner {
+    padding-top: 10px;
+    text-align: center;
+	}
+
+	.hero h3 {
+	    letter-spacing: 10px;
+	}
+
+
+	.hero {
+	    padding-bottom: 0;
+	}
+
+	.subscribe input[type=text] {
+	    width: 50%;
+	    margin-bottom: 30px;
+	}
+
+	.btn-send {
+	    float: none;
+	
+	    margin-bottom: 80px;
+	}
+	.effects .img {
+    	margin-bottom: 15px;
+	}
+	.show-menu .icon-list a {
+		display: block;
+		width: 100%;
+		float: left;
+		margin-bottom: 10px;
+	}
+
+	.show-menu .menu-wrap {
+		height: 100%;
+	}
+}
+
+
+@media screen and (max-width:991px) {
+	.hero {
+    	padding: 0px;
+	}
+
+	.subscribe {
+	    padding-bottom: 40px;
+	}
+}

@@ -1,0 +1,42 @@
+.about-image {
+	height:400px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+.color-bg,#blog {
+	background: #17a2b8;
+}
+
+.color-bg a {
+    color: #FFE800;
+}
+.color-bg h6, .color-bg p {
+    color: white;
+}
+.color-bg h6::after{
+	border-color: #fff;
+}
+.color-bg .weight-outline-btn {
+    color: white;
+    border-color: white;
+}
+.color-bg .weight-outline-btn:hover {
+  background: #FFF;
+  border-color: rgba(0, 0, 0, 0);
+}
+.about-text {
+	padding:20px 50px 25px 50px;
+}
+.about-text h1 {
+	text-transform:uppercase;
+	font-size:24px;
+	color: #8C8C8C;
+}
+.color-bg h1.arrow span {
+    color: #FFE800;
+}
+.color-bg h1.arrow {
+    color: #FFF;
+}
